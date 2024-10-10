@@ -1,0 +1,32 @@
+{
+  "name": "landmark-api-wrapper",
+  "version": "1.0.2",
+  "description": "A TypeScript wrapper for the Landmark API.",
+  "main": "dist/LandmarkAPI.js",
+  "types": "dist/LandmarkAPI.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gravgor/landmark-api-wrapper"
+  },
+  "keywords": [
+    "landmarks",
+    "api",
+    "typescript",
+    "wrapper",
+    "golang"
+  ],
+  "author": "Marceli Borowczak",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "@types/axios": "^0.14.0"
+  }
+}
