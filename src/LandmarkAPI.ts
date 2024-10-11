@@ -30,7 +30,7 @@ class LandmarkAPI {
     private baseURL: string;
     private client: AxiosInstance;
 
-    constructor({ apiKey, authKey, baseURL = 'https://api.landmark-api.com/api/v1' }: LandmarkAPIOptions) {
+    constructor({ apiKey, authKey, baseURL = 'https://landmark-api-development.up.railway.app/api/v1' }: LandmarkAPIOptions) {
         this.apiKey = apiKey;
         this.authKey = authKey;
         this.baseURL = baseURL;

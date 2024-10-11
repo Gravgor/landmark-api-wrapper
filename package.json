@@ -1,6 +1,6 @@
 {
   "name": "landmark-api-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript wrapper for the Landmark API.",
   "main": "dist/LandmarkAPI.js",
   "types": "dist/LandmarkAPI.d.ts",
